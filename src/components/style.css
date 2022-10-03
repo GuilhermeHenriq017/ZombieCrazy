@@ -1,0 +1,53 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box ;
+    list-style-type: none;
+    text-decoration: none;
+  
+  }
+  
+  header {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    top:0;
+    z-index: 100;
+    background: rgba(6, 137, 82, 0.695);
+  }
+  
+  header h1 {
+    color: rgb(33, 33, 39);
+    font-size: 4em;
+    font-family:'Courier New', Courier, monospace;
+  }   
+   
+  .tbCenter {
+  text-align: center;
+  }
+  .tbright {
+  text-align: right;
+  padding-right: 15px;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    header {
+      top: 0px;
+      justify-content: space-between;
+      padding: 10px;
+      position: fixed;
+      width: 100%;
+      z-index: 100;
+      background: rgb(255, 255, 250);
+    }
+    
+    header h1 {
+      color: rgb(33, 33, 39);
+      font-size: 1em;
+      text-align: center;
+
+    }
+  }
